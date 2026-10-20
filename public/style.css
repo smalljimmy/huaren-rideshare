@@ -1,0 +1,54 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; background: #f6f7f9; color: #222; line-height: 1.6; padding-bottom: 60px; }
+.top { display: flex; justify-content: space-between; align-items: center; padding: 12px 16px; background: #1677ff; color: #fff; position: sticky; top: 0; z-index: 10; }
+.brand { color: #fff; text-decoration: none; font-weight: 700; font-size: 18px; }
+.top nav a { color: #e6f0ff; text-decoration: none; font-size: 13px; margin-left: 12px; }
+main { max-width: 640px; margin: 0 auto; padding: 16px; }
+footer { text-align: center; color: #999; font-size: 12px; padding: 24px 16px; }
+.hero { text-align: center; padding: 28px 12px 18px; }
+.hero h1 { font-size: 26px; margin-bottom: 8px; }
+.hero p { color: #666; font-size: 14px; }
+.search { display: flex; gap: 8px; margin: 12px 0; flex-wrap: wrap; }
+.search input { flex: 1; min-width: 0; padding: 10px; border: 1px solid #ddd; border-radius: 8px; font-size: 15px; }
+.search button { padding: 10px 18px; background: #1677ff; color: #fff; border: 0; border-radius: 8px; font-size: 15px; }
+.chips { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+.chip { background: #e8f1ff; color: #1677ff; padding: 6px 12px; border-radius: 16px; font-size: 13px; text-decoration: none; }
+h2 { font-size: 17px; margin: 18px 0 10px; }
+.list { display: grid; gap: 12px; }
+.card { background: #fff; border-radius: 12px; padding: 14px; text-decoration: none; color: inherit; box-shadow: 0 1px 4px rgba(0,0,0,.06); display: block; }
+.route { font-size: 18px; font-weight: 700; margin-bottom: 6px; }
+.arrow { color: #1677ff; }
+.meta { font-size: 13px; color: #666; margin: 2px 0; }
+.row { display: flex; justify-content: space-between; align-items: center; margin-top: 8px; }
+.price { color: #f5222d; font-weight: 700; font-size: 16px; }
+.seats { font-size: 13px; color: #52c41a; font-weight: 600; }
+.empty { color: #999; text-align: center; padding: 30px 0; }
+.cta { text-align: center; margin: 24px 0; }
+.btn { display: inline-block; background: #1677ff; color: #fff; padding: 12px 24px; border-radius: 10px; text-decoration: none; border: 0; font-size: 16px; margin: 4px; }
+.btn.ghost { background: #fff; color: #1677ff; border: 1px solid #1677ff; }
+.back { color: #1677ff; text-decoration: none; font-size: 14px; }
+.detail { background: #fff; border-radius: 12px; padding: 18px; margin-top: 10px; }
+.detail h1 { font-size: 22px; margin-bottom: 10px; }
+.detail p { margin: 6px 0; font-size: 15px; }
+.intro { color: #666; font-size: 14px; background: #f6f7f9; padding: 8px 10px; border-radius: 8px; }
+.form { display: grid; gap: 12px; margin-top: 12px; }
+.form label { font-size: 14px; color: #444; display: grid; gap: 6px; }
+.form input, .form select { padding: 11px; border: 1px solid #ddd; border-radius: 8px; font-size: 15px; width: 100%; }
+.ok { background: #fff; border-radius: 12px; padding: 24px 18px; text-align: center; margin-top: 16px; }
+.ok h1 { margin-bottom: 12px; }
+.hint { color: #888; font-size: 13px; margin-top: 10px; }
+.err { color: #f5222d; background: #fff1f0; padding: 10px; border-radius: 8px; margin: 10px 0; }
+.full { color: #f5222d; font-weight: 600; }
+.actions { margin: 10px 0; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.actions a { color: #1677ff; font-size: 14px; }
+.linkbtn { background: none; border: 0; color: #f5222d; font-size: 14px; padding: 0; cursor: pointer; }
+.tag { font-size: 12px; color: #999; border: 1px solid #ddd; padding: 2px 8px; border-radius: 10px; }
+.points { margin: 14px 0 18px 20px; }
+.points li { margin: 8px 0; font-size: 15px; }
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: 12px 0; }
+.stat { background: #fff; border-radius: 10px; padding: 14px 6px; text-align: center; }
+.stat b { display: block; font-size: 22px; color: #1677ff; }
+.stat span { font-size: 12px; color: #888; }
+.tbl { width: 100%; border-collapse: collapse; background: #fff; border-radius: 10px; overflow: hidden; font-size: 13px; }
+.tbl th, .tbl td { padding: 8px; border-bottom: 1px solid #eee; text-align: left; }
+.dim { color: #aaa; font-size: 12px; }

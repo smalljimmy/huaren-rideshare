@@ -1,0 +1,17 @@
+{
+  "name": "huaren-rideshare",
+  "version": "1.0.0",
+  "private": true,
+  "description": "华人顺风车 - 北美华人跨城拼车平台",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "reset": "node -e \"require('./lib/db').resetDb()\""
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1"
+  }
+}
